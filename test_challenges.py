@@ -33,3 +33,15 @@ from double_letters import double_letters
 def test_double_letters():
     bool = double_letters('Hello World!')
     assert bool == True
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+from add_remove_dots import add_dots, add_dots_2, remove_dots
+def test_add_dots():
+    str = add_dots('test')
+    assert str == 't.e.s.t'
+def test_add_dots_2():
+    str = add_dots_2('test')
+    assert str == 't.e.s.t'
+def test_remove_dots():
+    str = remove_dots('t.e.s.t')
+    assert str == 'test'
