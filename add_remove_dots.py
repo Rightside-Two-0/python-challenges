@@ -23,11 +23,10 @@ def add_dots(str):
         else:
             new_str += str[index]
     return new_str
-
 def add_dots_2(str):
-    new_str = '.'.join(str[i:i+1] for i in range(0, len(str)))
+    new_str = '.'.join(str[i:i+1] for i in range(len(str)))
     return new_str
-
+#~~~~~~~~~~~~part~~2~~~~~~~~~~~~~~~~~~~>
 def remove_dots(str):
     new_str = ''
     for index in range(len(str)):
