@@ -27,4 +27,9 @@ def test_random():
 from typecheck import only_ints
 def test_typecheck():
     bool = only_ints(1,2)
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+from double_letters import double_letters
+def test_double_letters():
+    bool = double_letters('Hello World!')
     assert bool == True
