@@ -1,5 +1,12 @@
-#Rightside Two.0: None.profit
-#There is a rightside to money, business & property
+# @Author: Rightside Two.0: None_profit <two_0>
+# @Date:   28-08-2020
+# @Email:  philip@two-0.org
+# @Project: Python Challenge
+# @Last modified by:   two_0
+# @Last modified time: 29-08-2020
+# @License: https://github.com/Rightside-Two-0/Rightside_Two.0/blob/master/LICENSE
+# @Copyright: Copyright 2020 © - All Rights Reserved
+
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
 from capital_indexes import capital_indexes
 def test_capital_indexes():
@@ -45,3 +52,15 @@ def test_add_dots_2():
 def test_remove_dots():
     str = remove_dots('t.e.s.t')
     assert str == 'test'
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+from counting_syllables import count
+def test_count():
+    num = count('at-tah-ma-ahha')
+    assert num == 4
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+from anagrams import is_anagram
+def test_is_anagram():
+    bool = is_anagram('python','thynop')
+    assert bool == True
