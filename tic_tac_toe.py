@@ -27,7 +27,7 @@ def get_row_col(input):
             part_2 = 1
         elif input[:1] == 'C':
             part_2 = 2
-        #~~~~~~~~~~~~~~~~~~~~~>
+        #~~~~~~~~~~~~~~~~~~~~>
         if input[1:] == '1':
             part_1 = 0
         elif input[1:] == '2':
