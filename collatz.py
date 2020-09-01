@@ -13,6 +13,7 @@ repeated rules; if x is odd: 3x+1 else x/2
 def collatz(number):
     range_numbers = []
     steps = 0
+    #looking at primes in each series
     while number > 1:
         if number % 2 == 0:
             number = number/2
@@ -25,11 +26,12 @@ def collatz(number):
     return range_numbers, steps
 #~~~~Rightside~Two~~~~~~~~~~~~~~~~~>
 import matplotlib.pyplot as plt
-for index in range(3, 34):
-    fig = plt.figure()
-    x = range(collatz(index)[1])
-    y = collatz(index)[0]
-    plt.title('Collatz Conjecture of ('+str(index)+')')
-    plt.ylabel('height of x')
-    plt.xlabel('# of steps needed to return to source')
-    plt.plot(x,y)
+fig = plt.figure()
+for index in range(3, 31):
+        x = range(collatz(index)[1])
+        y = collatz(index)[0]
+        print(index, 'steps:', max(x), 'max:', max(y), y)
+        #Europhates seeve
+        if all(index%i!=0 for i in range(2,index)):
+            plt.plot(x,y)
+            print('#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>')

@@ -3,7 +3,7 @@
 # @Email:  philip@two-0.org
 # @Project: Python Challenge
 # @Last modified by:   two_0
-# @Last modified time: 29-08-2020
+# @Last modified time: 31-08-2020
 # @License: https://github.com/Rightside-Two-0/Rightside_Two.0/blob/master/LICENSE
 # @Copyright: Copyright 2020 © - All Rights Reserved
 
@@ -64,3 +64,5 @@ from anagrams import is_anagram
 def test_is_anagram():
     bool = is_anagram('python','thynop')
     assert bool == True
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
