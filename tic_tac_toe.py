@@ -14,7 +14,7 @@ def get_row_col(input):
     part_1 = 0
     part_2 = 0
     if len(input) == 2:
-        #max a,b,c...0,1,2
+        #max: a,b,c...1,2,3
         if input[:1] == 'A':
             part_2 = 0
         elif input[:1] == 'B':
