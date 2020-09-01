@@ -28,8 +28,8 @@ def get_row_col(input):
         elif input[:1] == 'C':
             part_2 = 2
         else:
-            part_2 = 'send correct input'
-        #~~~~~~~~~~~~~~~~~~~~~~~~>
+            part_2 = 'invalid input'
+        #~~~~~~~~~~~~~~~~~~~~~~~>
         if input[1:] == '1':
             part_1 = 0
         elif input[1:] == '2':
@@ -37,6 +37,6 @@ def get_row_col(input):
         elif input[1:] == '3':
             part_1 = 2
         else:
-            part_1 = 'send correct input'
+            part_1 = 'invalid input'
         return part_1, part_2
     return None
