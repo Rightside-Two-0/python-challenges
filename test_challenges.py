@@ -91,3 +91,9 @@ def test_get_row_col_len():
 def test_get_row_col():
     data = get_row_col('B3')
     assert data == (2,1)
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+from palindrome import palindrome
+def test_palindrome():
+    is_true = palindrome('bob')
+    assert is_true == True
