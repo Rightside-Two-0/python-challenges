@@ -66,3 +66,7 @@ def test_is_anagram():
     assert bool == True
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+from flatten import flatten
+def test_flatten():
+    new_list = flatten([[1,2,3],[4,5],[6,7,8,9]])
+    assert new_list == [1,2,3,4,5,6,7,8,9]

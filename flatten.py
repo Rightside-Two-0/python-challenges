@@ -21,7 +21,7 @@ It should take a single parameter and return a list.
 def flatten(input):
     new_list = []
     n_lists = len(input)
-    for item in range(n_list):
+    for item in range(n_lists):
         for item_y in input[item]:
             new_list.append(item_y)
     return new_list
