@@ -97,3 +97,9 @@ from palindrome import palindrome
 def test_palindrome():
     is_true = palindrome('bob')
     assert is_true == True
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+from challenges import up_down
+def test_up_down():
+    data = up_down(17)
+    assert data == (16, 18)
