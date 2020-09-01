@@ -70,3 +70,9 @@ from flatten import flatten
 def test_flatten():
     new_list = flatten([[1,2,3],[4,5],[6,7,8,9]])
     assert new_list == [1,2,3,4,5,6,7,8,9]
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+from min_max import difference
+def test_difference():
+    diff = difference([52,36,41,188,22,3,66,455])
+    assert diff == 455-3
