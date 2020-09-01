@@ -86,5 +86,5 @@ def test_div_3():
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
 from tic_tac_toe import get_row_col
 def test_get_row_col():
-    data = get_row_col('A2')
-    assert data == (1,0)
+    data = get_row_col('B3')
+    assert data == (2,1)
