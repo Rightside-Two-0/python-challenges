@@ -76,3 +76,9 @@ from min_max import difference
 def test_difference():
     diff = difference([52,36,41,188,22,3,66,455])
     assert diff == 455-3
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+from divisor import div_3
+def test_div_3():
+    is_divisor = div_3(30)
+    assert is_divisor == True
