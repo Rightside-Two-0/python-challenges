@@ -3,7 +3,7 @@
 # @Email:  philip@two-0.org
 # @Project: Python Challenge
 # @Last modified by:   two_0
-# @Last modified time: 31-08-2020
+# @Last modified time: 01-09-2020
 # @License: https://github.com/Rightside-Two-0/Rightside_Two.0/blob/master/LICENSE
 # @Copyright: Copyright 2020 © - All Rights Reserved
 
@@ -82,3 +82,9 @@ from divisor import div_3
 def test_div_3():
     is_divisor = div_3(30)
     assert is_divisor == True
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+from tic_tac_toe import get_row_col
+def test_get_row_col():
+    data = get_row_col('B3')
+    assert data == (2,1)
