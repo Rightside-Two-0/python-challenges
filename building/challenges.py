@@ -26,3 +26,5 @@ def save_file(filename):
         content = file.readlines()
     for item in content:
         print(item)
+
+save_file('csc340_slp2.ipynb')
