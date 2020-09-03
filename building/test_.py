@@ -16,3 +16,7 @@ def personal_independence(income, ave_expenses):
     if type(income) == type('PASSIVE'):
         return income > ave_expenses
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+from challenges import add_it
+def test_add_it():
+    total = add_it(13, 3)
+    assert total == 16

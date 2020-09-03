@@ -1,7 +1,7 @@
 # @Author: two_0
 # @Date:   01-09-2020
 # @Email:  philip@two-0.org
-# @Project:
+# @Project: Python Challenge
 # @Last modified by:   two_0
 # @Last modified time: 03-09-2020
 # @License: https://github.com/Rightside-Two-0/Rightside_Two.0/blob/master/LICENSE
@@ -21,3 +21,9 @@ Create a function that returns 2 strings printed out.
 1st: represents the problem (addition) --> **** + **
 2nd: represents the answer the characters & the # --> ****** 6
 '''
+def add_it(number1, number2):
+    print('*'*number1,'+','*'*number2)
+    print('*'*(number1+number2), number1+number2)
+    return number1+number2
+
+add_it(3,13)
