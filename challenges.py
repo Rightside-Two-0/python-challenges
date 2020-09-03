@@ -21,5 +21,8 @@ def personal_independence(income, ave_expenses):
 
 '''
 def save_file(filename):
+    content = []
     with open(filename, mode='r') as file:
         content = file.readlines()
+    for item in content:
+        print(item)
