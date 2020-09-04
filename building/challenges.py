@@ -45,4 +45,14 @@ def consecutive_zeros(input):
                     longest = count
                 count = 1
     return longest
-consecutive_zeros('10000000000101010001010100010000001')
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+'''
+Define a function named all_equal that takes a list and checks whether
+all elements in the list are the same.
+'''
+def all_equal(input):
+    all_true = True
+    for index in range(len(input)):
+        if input[index] != input[index-1]:
+            all_true = False
+    return all_true
