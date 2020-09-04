@@ -28,5 +28,5 @@ def test_consecutive_zeros():
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
 from challenges import all_equal
 def test_all_equal():
-    is_true = all_equal([1,1,1,1,1,1,1])
+    is_true = all_equal([1,1,1,1,1,1])
     assert is_true == True
