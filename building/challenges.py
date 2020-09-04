@@ -50,3 +50,9 @@ def consecutive_zeros(input):
 Define a function named all_equal that takes a list and checks whether
 all elements in the list are the same.
 '''
+def all_equal(input):
+    is_true = True
+    for index in range(len(input)):
+        if input[index] != input[index-1]:
+            is_true = False
+    return is_true

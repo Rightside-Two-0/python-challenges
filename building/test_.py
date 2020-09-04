@@ -26,3 +26,7 @@ def test_consecutive_zeros():
     zeros = consecutive_zeros('101010100000000000001010100010000001')
     assert zeros == 13
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+from challenges import all_equal
+def test_all_equal():
+    is_true = all_equal([1,1,1,1,1,1,1])
+    assert is_true == True
