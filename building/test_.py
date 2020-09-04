@@ -3,7 +3,7 @@
 # @Email:  philip@two-0.org
 # @Project: Python Challenge
 # @Last modified by:   two_0
-# @Last modified time: 03-09-2020
+# @Last modified time: 04-09-2020
 # @License: https://github.com/Rightside-Two-0/Rightside_Two.0/blob/master/LICENSE
 # @Copyright: Copyright 2020 © - All Rights Reserved
 #     ___ __ ._`.*.'_._ ____ רףאל
@@ -20,3 +20,8 @@ from challenges import add_it
 def test_add_it():
     total = add_it(13, 3)
     assert total == 16
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+from challenges import consecutive_zeros
+def test_consecutive_zeros():
+    zeros = consecutive_zeros('101010100000000000001010100010000001')
+    assert zeros == 13

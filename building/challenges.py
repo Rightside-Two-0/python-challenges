@@ -3,7 +3,7 @@
 # @Email:  philip@two-0.org
 # @Project: Python Challenge
 # @Last modified by:   two_0
-# @Last modified time: 03-09-2020
+# @Last modified time: 04-09-2020
 # @License: https://github.com/Rightside-Two-0/Rightside_Two.0/blob/master/LICENSE
 # @Copyright: Rightside Two.0 ~ Copyright 2020 © - All Rights Reserved
 #     ___ __ ._`.*.'_._ ____ רףאל
@@ -26,3 +26,23 @@ def add_it(number1, number2):
     print('*'*(number1+number2), number1+number2)
     return number1+number2
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+'''
+Define a function named consecutive_zeros that takes a single parameter,
+which is the string of zeros and ones.
+'''
+def consecutive_zeros(input):
+    count = 1
+    longest = 0
+    if len(input) > 1:
+        for index in range(len(input)):
+            if input[index] == input[index-1]:
+                if input[index] == '0':
+                    count += 1
+                    if count > longest:
+                        longest = count
+            else:
+                if count > longest:
+                    longest = count
+                count = 1
+    return longest
+consecutive_zeros('10000000000101010001010100010000001')
