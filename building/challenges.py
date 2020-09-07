@@ -3,7 +3,7 @@
 # @Email:  philip@two-0.org
 # @Project: Python Challenge
 # @Last modified by:   two_0
-# @Last modified time: 04-09-2020
+# @Last modified time: 07-09-2020
 # @License: https://github.com/Rightside-Two-0/Rightside_Two.0/blob/master/LICENSE
 # @Copyright: Rightside Two.0 ~ Copyright 2020 © - All Rights Reserved
 #     ___ __ ._`.*.'_._ ____ רףאל
@@ -56,3 +56,9 @@ def all_equal(input):
         if input[index] != input[index-1]:
             is_true = False
     return is_true
+
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+'''
+Define a function named triple_and that takes three parameters and
+returns True only if they are all True and False otherwise.
+'''
