@@ -62,3 +62,6 @@ def all_equal(input):
 Define a function named triple_and that takes three parameters and
 returns True only if they are all True and False otherwise.
 '''
+def triple_and(input1, input2, input3):
+    return input1 and input2 and input3
+triple_and(True, False, True)

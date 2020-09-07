@@ -31,3 +31,7 @@ def test_all_equal():
     is_true = all_equal([1,1,1,1,1,1])
     assert is_true == True
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+from challenges import triple_and
+def test_triple_and():
+    is_true = triple_and(True, True, True)
+    assert is_true
