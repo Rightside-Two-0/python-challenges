@@ -44,11 +44,12 @@ add_all([3,4,8,13,55,33,21,56,777,345])
 #Factorial of n
 #%%
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
-#n= 6
 #6! = 6*5*4*3*2*1
 def factorial(input):
-    result = input
+    results = input
     if input != 1:
-        result *= factorial(input-1)
-    return result
+        results *= factorial(input-1)
+    return results
+
 factorial(6)
+6*5*4*3*2*1 == factorial(6)
