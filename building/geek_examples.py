@@ -20,3 +20,8 @@ def personal_independence(income, ave_expenses):
 #%%md
 #Adding Numbers
 #%%
+from IPython.display import Latex
+def add_it(input1, input2):
+    return Latex('$'+str(input1)+'+'+str(input2)+'='+str(input1+input2)+'$')
+add_it(3,4)
+type(add_it(3,4))
