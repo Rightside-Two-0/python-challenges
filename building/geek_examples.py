@@ -20,6 +20,7 @@ def personal_independence(income, ave_expenses):
 #%%md
 #Adding Numbers
 #%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
 from IPython.display import Latex
 def add_it(input1, input2):
     return Latex('$'+str(input1)+'+'+str(input2)+'='+str(input1+input2)+'$')
@@ -27,6 +28,7 @@ add_it(3,4)
 #%%md
 #More General Solution
 #%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
 def add_all(input_list):
     total = 0
     str_ = ''
@@ -37,4 +39,16 @@ def add_all(input_list):
         else:
             str_ += str(item)+'+ '
     return Latex('$'+str_+'='+str(total)+'$')
-add_all([3,4,5,6,7])
+add_all([3,4,8,13,55,33,21,56,777,345])
+#%%md
+#Factorial of n
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#n= 6
+#6! = 6*5*4*3*2*1
+def factorial(input):
+    result = input
+    if input != 1:
+        result *= factorial(input-1)
+    return result
+factorial(6)
