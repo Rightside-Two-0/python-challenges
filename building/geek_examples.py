@@ -53,3 +53,20 @@ def factorial(input):
 
 factorial(6)
 6*5*4*3*2*1 == factorial(6)
+#%%md
+#Simple Interest
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+'''
+Simple interest formula is given by:
+Simple Interest = (P x T x R)/100
+Where,
+P is the principle amount
+T is the time and
+R is the rate
+'''
+principle = 25000
+term = 360
+rate = .06
+Simple_Interest = (principle * term * rate)/100
+Simple_Interest
