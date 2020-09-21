@@ -24,4 +24,17 @@ from IPython.display import Latex
 def add_it(input1, input2):
     return Latex('$'+str(input1)+'+'+str(input2)+'='+str(input1+input2)+'$')
 add_it(3,4)
-type(add_it(3,4))
+#%%md
+#More General Solution
+#%%
+def add_all(input_list):
+    total = 0
+    str_ = ''
+    for item in input_list:
+        total += item
+        if item == input_list[-1]:
+            str_ += str(item)
+        else:
+            str_ += str(item)+'+ '
+    return Latex('$'+str_+'='+str(total)+'$')
+add_all([3,4,5,6,7])
