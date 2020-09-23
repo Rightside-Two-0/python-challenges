@@ -76,13 +76,15 @@ Simple_Interest
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
 '''
 Write a function that returns true or false
-if the input is infact an Amstrong number.
+if the input is infact an Armstrong number.
 1*1*1 + 5*5*5 + 3*3*3 = 153
 '''
 def is_armstrong(input):
     digits = len(str(input))
-    result = 0
+    results = 0
     for item in str(input):
-        result += int(item)**digits
-    return input == result
+        results += int(item)**digits
+    return results == input
+#%%
+#testing
 is_armstrong(153)
