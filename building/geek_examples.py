@@ -75,6 +75,14 @@ Simple_Interest
 #%%
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
 '''
-Wrtie a function that returns true or false
-if the input is infact an Amstring number.
+Write a function that returns true or false
+if the input is infact an Amstrong number.
+1*1*1 + 5*5*5 + 3*3*3 = 153
 '''
+def is_armstrong(input):
+    digits = len(str(input))
+    result = 0
+    for item in str(input):
+        result += int(item)**digits
+    return input == result
+is_armstrong(153)
