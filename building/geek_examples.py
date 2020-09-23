@@ -3,7 +3,7 @@
 # @Email:  philip@two-0.org
 # @Project: Python Challenge
 # @Last modified by:   two_0
-# @Last modified time: 21-09-2020
+# @Last modified time: 23-09-2020
 # @License: https://github.com/Rightside-Two-0/Rightside_Two.0/blob/master/LICENSE
 # @Copyright: Copyright 2020 © - All Rights Reserved
 #https://www.geeksforgeeks.org/python-programming-examples/
@@ -70,3 +70,11 @@ term = 360
 rate = .06
 Simple_Interest = (principle * term * rate)/100
 Simple_Interest
+#%%md
+#Armstrong Numbers
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+'''
+Wrtie a function that returns true or false
+if the input is infact an Amstring number.
+'''
