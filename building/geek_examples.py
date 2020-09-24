@@ -6,7 +6,7 @@
 # @Last modified time: 23-09-2020
 # @License: https://github.com/Rightside-Two-0/Rightside_Two.0/blob/master/LICENSE
 # @Copyright: Copyright 2020 © - All Rights Reserved
-#https://www.geeksforgeeks.org/python-programming-examples/
+#http://louistiao.me/posts/demos/ipython-notebook-demo/
 #     ___ __ ._`.*.'_._ ____ רףאל
 #    . +  * .\   o.* `.`. +.  א .
 #   *  .ת' '  \^/|  `. * .  * `
@@ -79,12 +79,33 @@ Write a function that returns true or false
 if the input is infact an Armstrong number.
 1*1*1 + 5*5*5 + 3*3*3 = 153
 '''
+from IPython.display import Latex
 def is_armstrong(input):
     digits = len(str(input))
     results = 0
+    str_ = ''
     for item in str(input):
         results += int(item)**digits
     return results == input
 #%%
 #testing
 is_armstrong(153)
+#%%md
+#Area of a Circle
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+'''
+Let's write a function that returns the
+correct area of a circle.
+'''
+from IPython.display import IFrame
+IFrame("<iframe src='https://nteract.io/' width='900' height='490'></iframe>")
+#%%md
+#Long Division
+#%%
+from IPython.display import YouTubeVideo
+YouTubeVideo('up_xKZ6GeUg')
+#%%
+def divide(dividend, divisor):
+    return dividend / divisor
+int(divide(78,2))
