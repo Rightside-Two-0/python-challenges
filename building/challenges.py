@@ -1,10 +1,10 @@
-#%% codecell
+#%%
 # @Author: two_0
 # @Date:   01-09-2020
 # @Email:  philip@two-0.org
 # @Project: Python Challenge
 # @Last modified by:   two_0
-# @Last modified time: 21-09-2020
+# @Last modified time: 24-09-2020
 # @License: https://github.com/Rightside-Two-0/Rightside_Two.0/blob/master/LICENSE
 # @Copyright: Rightside Two.0 ~ Copyright 2020 © - All Rights Reserved
 #     ___ __ ._`.*.'_._ ____ רףאל
@@ -86,3 +86,24 @@ def convert(input):
     return [str(x) for x in input]
 
 convert([1,2,3])
+#%% md
+#Prime Numbers within a range
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+'''
+Given two positive integers start and end. The task is to write a
+Python program to print all Prime numbers in an Interval.
+https://www.geeksforgeeks.org
+'''
+def prime_interval(start, end):
+    #cycle through each interger
+    for item in range(start, end+1):
+        #cycle through below down to 2
+        for item_y in range(2, item):
+            #testing if factors
+            if item_y % item == 0:
+                break
+        print(item)
+#%%
+#testing
+prime_interval(10,24)
