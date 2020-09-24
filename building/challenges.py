@@ -96,14 +96,12 @@ Python program to print all Prime numbers in an Interval.
 https://www.geeksforgeeks.org
 '''
 def prime_interval(start, end):
-    #cycle through each interger
+    #cycle through every integer within range
     for item in range(start, end+1):
-        #cycle through below down to 2
+        #cycle through all below down to 2
         for item_y in range(2, item):
-            #testing if factors
-            if item_y % item == 0:
+            #test each one if factors
+            if item % item_y == 0:
                 break
-        print(item)
-#%%
-#testing
-prime_interval(10,24)
+        else:
+            print(item)
