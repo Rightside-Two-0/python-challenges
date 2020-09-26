@@ -4,7 +4,7 @@
 # @Email:  philip@two-0.org
 # @Project: Python Challenge
 # @Last modified by:   two_0
-# @Last modified time: 24-09-2020
+# @Last modified time: 26-09-2020
 # @License: https://github.com/Rightside-Two-0/Rightside_Two.0/blob/master/LICENSE
 # @Copyright: Rightside Two.0 ~ Copyright 2020 © - All Rights Reserved
 #     ___ __ ._`.*.'_._ ____ רףאל
@@ -105,3 +105,16 @@ def prime_interval(start, end):
                 break
         else:
             print(item)
+#%%
+#testing
+prime_interval(10,42)
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#%% md
+#Fibonacci Numbers
+#%%
+from IPython.display import *
+#from Wikipedia.org
+IFrame('https://en.wikipedia.org/wiki/Fibonacci', width=500, height=400)
+#%%
+#from YouTube
+YouTubeVideo('wTlw7fNcO-0')
