@@ -19,22 +19,3 @@ def personal_independence(income, ave_expenses):
 ##%%md
 #Fibonacci Numbers
 #%%
-from IPython.display import *
-IFrame('https://en.wikipedia.org/wiki/Fibonacci', width=500, height=400)
-#%%
-YouTubeVideo('wTlw7fNcO-0', start=10)
-#%%
-def fibonacci_series(n_terms):
-    #sum of the previous two
-    n1, n2 = 0,1
-    count = 0
-    while count < n_terms:
-        print(n1)
-        fib_sum = n1+n2
-        #update the values
-        n1 = n2
-        n2 = fib_sum
-        count +=1
-#%%
-#testing
-fibonacci_series(10)
