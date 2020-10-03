@@ -37,4 +37,4 @@ def fibonacci_series(n_terms):
         print(fib_sum)
 #%%
 #testing
-fibonacci_series(10)
+fibonacci_series(8)
