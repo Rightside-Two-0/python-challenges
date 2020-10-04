@@ -32,3 +32,7 @@ def zap(list_1, list_2):
         master_list.append(item)
     return master_list
 #%%
+#testing
+l_1 = [1,2,3]
+l_2 = [4,5,6]
+zap(l_1, l_2)
